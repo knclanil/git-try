@@ -1,0 +1,7 @@
+t clone https://github.com/knclanil/git-try.git
+ 1960  ls
+ 1961  cd git-try/
+ 1962  echo 'this is git test ' > test.txt
+ 1963  git add test.txt
+ 1964  git commit -m "added test.txt"
+ 1965  git push
