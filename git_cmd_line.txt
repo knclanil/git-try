@@ -5,3 +5,13 @@ t clone https://github.com/knclanil/git-try.git
  1963  git add test.txt
  1964  git commit -m "added test.txt"
  1965  git push
+	
+...........Git branch creating.....	
+
+ 1988  git branch slave
+ 1989  git checkout slave
+ 1990  git branch
+ 1991  echo ' we are testing on branch called slave' > test.txt
+ 1992  git add test.txt
+ 1993  git commit -m "slave in test.txt"
+ 1994  git push origin slave
